@@ -1,4 +1,10 @@
 .flex-spaces .content {
     width: 100%;
-    margin: auto 5.5%;   
+    margin: auto 5.5%;
+}   
+.row:not(.topNav) {
+    margin-top: 140px;
+}
+.gridImage {
+    background-image: url("../img/fsf-grid-1.png")
 }
