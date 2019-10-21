@@ -1,10 +1,26 @@
 .flex-spaces .content {
     width: 100%;
     margin: auto 5.5%;
-}   
-.row:not(.topNav) {
+}
+.row {
+    margin-bottom: 0 !important;
+} 
+.row.topNav + .row {
     margin-top: 140px;
+}
+@media only screen and (max-width: 768px) {
+    .row.topNav nav.fixed {
+        border: none;
+    }
+    .row.topNav + .row {
+        margin-top: 0px;
+    }
 }
 .gridImage {
     background-image: url("../img/fsf-grid-1.png")
 }
+
+
+
+
+
