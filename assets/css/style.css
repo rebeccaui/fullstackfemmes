@@ -42,6 +42,12 @@ ul {
 .gridImage {
     background-image: url("../img/fsf-grid-1.png")
 }
+.navCenter {
+    justify-content: center;
+}
+ul {
+    text-decoration: none !important;
+}
 
 
 
