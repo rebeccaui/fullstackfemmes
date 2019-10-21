@@ -1,13 +1,36 @@
+img {
+    display: inline-block !important;
+}
+
 .flex-spaces .content {
     width: 100%;
     margin: auto 5.5%;
 }
+
 .row {
     margin-bottom: 0 !important;
 } 
+
 .row.topNav + .row {
     margin-top: 140px;
 }
+
+.main-grid-layout, .about-us-img-col {
+    text-align: center;
+}
+
+.card .card-header, .card .card-footer {
+    background-color: rgb(251, 207, 213);
+}
+
+.navCenter {
+    justify-content: center;
+}
+
+ul {
+    text-decoration: none !important;
+}
+
 @media only screen and (max-width: 768px) {
     .row.topNav nav.fixed {
         border: none;

@@ -10,7 +10,7 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!--Paper CSS-->
-    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.css">
     <title>Full Stack Femmes</title>
 </head>
 <body>
@@ -39,18 +39,34 @@
               </nav>
         </div>
     </div>
-    <div class="row">
-      <div class="col-12 col infoSection">
-          This is the body with no background image!!!
+    
+    <div class="row main-grid-layout">
+      <div class="col-2 col">
+        <img src="https://unsplash.it/100" class="no-border">
+      </div>
+      <div class="col-8 col">
+        <h2>Hello, {friends}!</h2>
+        <h3>We build web stuff*</h3>
+        <ul>
+          <li>Websites (<a href="#">like these</a>)</li>
+          <li>Mobile Apps (<a href="#">like these</a>)</li>
+          <li>Progressive Web Apps (<a href="#">like these</a>)</li>
+          <li>Games (<a href="#">like these</a>)</li>
+        </ul>
+        <p>* websites, apps, and various, digital sundries</p>
+        <button class="btn-large">Let us help!</button>
+      </div>
+      <div class="col-2 col">
+        <img src="https://unsplash.it/100" class="no-border">
       </div>
     </div>
     <!-- About Us -->
     <div class="row flex-spaces tabs">
       <input id="tab1" type="radio" name="tabs" checked>
-      <label for="tab1">Femme 1</label>
+      <label for="tab1" class="border border-primary">Femme 1</label>
     
       <input id="tab2" type="radio" name="tabs">
-      <label for="tab2">Femme 2</label>
+      <label for="tab2" class="border border-primary">Femme 2</label>
 
       <div class="content" id="content1">
         <div class="card">
@@ -59,7 +75,7 @@
           </div>
             <div class="card-body">
               <div class="row">
-                <div class="sm-12 md-4 col">
+                <div class="sm-12 md-4 col about-us-img-col">
                   <img src="https://unsplash.it/300" class="no-border">
                 </div>
                 <div class="sm-12 md-8 col">
@@ -81,7 +97,7 @@
             </div>
               <div class="card-body">
                 <div class="row">
-                  <div class="sm-12 md-4 col">
+                  <div class="sm-12 md-4 col about-us-img-col">
                     <img src="https://unsplash.it/300" class="no-border">
                   </div>
                   <div class="sm-12 md-8 col">
